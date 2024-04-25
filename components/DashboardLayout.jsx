@@ -79,7 +79,7 @@ const DashboardLayout = () => {
         </div>
 
         {/* Line 1 Block 2 */}
-        <div class="m-3 p-6 h-full min-w-[300px] flex-grow flex flex-col shadow-sm bg-white rounded-lg">
+        <div class="m-3 p-6 min-w-[300px] flex-grow flex flex-col shadow-sm bg-white rounded-lg">
           <VisitorInsights />
         </div>
 

@@ -7,10 +7,10 @@ import SearchIcon from '@mui/icons-material/Search';
 const Navbar = () => {
   return (
     <div className="min-h-20 sm:ml-60 flex flex-wrap-reverse justify-between items-center font-poppins bg-white">
-      <div className="pl-4 max-md:pl-0 m-3 max-md:ml-6 font-semibold text-2xl">Dashboard</div>
-      <div className="mr-10 flex flex-wrap items-center">
+      <div className="m-3 ml-9 max-md:pl-0 max-md:ml-6 font-semibold text-2xl">Dashboard</div>
+      <div className="ml-9 mr-10 max-md:ml-6 max-md:mr-0 flex flex-wrap items-center">
 
-        <div className="mr-10 my-3 max-md:ml-6 relative">
+        <div className="mr-10 my-3 relative">
           <SearchIcon className="absolute top-[10px] left-2 text-[#5864E8]"/>
           <input
             type="text"
@@ -19,7 +19,7 @@ const Navbar = () => {
           />
         </div>
 
-        <div className="mr-8 max-md:ml-6 max-md:mr-0 flex">
+        <div className="mr-8 max-md:mr-6 flex">
           <Image
             src="/flag.png"
             alt="English language"
@@ -31,12 +31,12 @@ const Navbar = () => {
           <ExpandMoreIcon fontSize="small" className="ml-3 text-gray-400"/>
         </div>
         
-        <div className="mr-4 max-md:ml-6 max-md:mr-0 w-10 h-10 flex relative justify-center items-center rounded-md bg-yellow-50">
+        <div className="mr-4 max-md:mr-6 w-10 h-10 flex relative justify-center items-center rounded-md bg-yellow-50">
           <div className="w-1 h-1 absolute top-2 right-2 rounded-full bg-red-600"></div>
           <NotificationsNoneIcon className="text-yellow-400"/>
         </div>
 
-        <div className="flex max-md:ml-6">
+        <div className="flex max-md:mt-3">
           <Image
             src="/me.jpg"
             alt="profile"
