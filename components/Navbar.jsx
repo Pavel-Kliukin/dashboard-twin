@@ -1,6 +1,7 @@
 import Image from "next/image";
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
+import SearchIcon from '@mui/icons-material/Search';
 
 
 const Navbar = () => {
@@ -9,12 +10,13 @@ const Navbar = () => {
       <div className="pl-8 font-semibold text-2xl">Dashboard</div>
       <div className="mr-10 flex items-center">
 
-        <div className="mr-10">
-        <input
-          type="text"
-          placeholder="&#xF002; Search here..."
-          className="block w-[200px] rounded-xl border-0 py-1.5 pl-7 pr-7 max-sm:pr-4 text-gray-700 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-1 focus:ring-inset focus:ring-indigo-600 text-sm leading-8"
-        />
+        <div className="mr-10 relative">
+          <SearchIcon className="absolute top-[10px] left-2 text-[#5864E8]"/>
+          <input
+            type="text"
+            placeholder="Search here..."
+            className="block w-[350px] rounded-xl border-0 py-1.5 pl-10 pr-7 tracking-tight max-sm:pr-4 text-gray-700 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-1 focus:ring-inset focus:ring-[#5864E8] text-sm leading-8"
+          />
         </div>
 
         <div className="mr-8 flex">
