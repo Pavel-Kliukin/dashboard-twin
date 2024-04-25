@@ -1,6 +1,6 @@
 const Sidebar = () => {
   return (
-    <div className="font-poppins text-sm">
+    <div className="font-poppins text-xs">
       <button
         data-drawer-target="default-sidebar"
         data-drawer-toggle="default-sidebar"
@@ -29,12 +29,12 @@ const Sidebar = () => {
         aria-label="Sidebar"
       >
         {/* Logo */}
-        <div className="m-8 mb-6 h-10 w-10 rounded-lg bg-[#5864E8]"></div>
+        <div className="m-8 mb-6 h-10 w-10 rounded-md bg-[#5864E8]"></div>
 
         <div class="h-full px-3 py-4 flex flex-col items-center overflow-y-auto ">
           <ul class="space-y-2 font-medium">
             <li>
-              <button class="flex items-center px-6 py-2 text-white rounded-lg bg-[#5864E8] dark:text-white hover:bg-gray-100 hover:text-gray-900 dark:hover:bg-gray-700 group">
+              <button class="flex items-center px-6 py-3 text-white rounded-xl bg-[#5864E8] dark:text-white hover:bg-gray-100 hover:text-gray-900 dark:hover:bg-gray-700 group">
                 <svg
                   class="w-5 h-5 text-white transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
                   aria-hidden="true"
@@ -49,7 +49,7 @@ const Sidebar = () => {
               </button>
             </li>
             <li>
-              <button class="flex items-center px-6 py-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+              <button class="flex items-center px-6 py-3 text-gray-900 rounded-xl dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
                 <svg
                   class="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
                   aria-hidden="true"
@@ -63,7 +63,7 @@ const Sidebar = () => {
               </button>
             </li>
             <li>
-              <button class="flex items-center px-6 py-2  text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+              <button class="flex items-center px-6 py-3  text-gray-900 rounded-xl dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
                 <svg
                   class="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
                   aria-hidden="true"
@@ -77,7 +77,7 @@ const Sidebar = () => {
               </button>
             </li>
             <li>
-              <button class="flex items-center px-6 py-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+              <button class="flex items-center px-6 py-3 text-gray-900 rounded-xl dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
                 <svg
                   class="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
                   aria-hidden="true"
@@ -91,7 +91,7 @@ const Sidebar = () => {
               </button>
             </li>
             <li>
-              <button class="flex items-center px-6 py-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+              <button class="flex items-center px-6 py-3 text-gray-900 rounded-xl dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
                 <svg
                   class="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
                   aria-hidden="true"
@@ -105,7 +105,7 @@ const Sidebar = () => {
               </button>
             </li>
             <li>
-              <button class="flex items-center px-6 py-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+              <button class="flex items-center px-6 py-3 text-gray-900 rounded-xl dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
                 <svg
                   class="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
                   aria-hidden="true"
@@ -125,7 +125,7 @@ const Sidebar = () => {
               </button>
             </li>
             <li>
-              <button class="flex items-center px-6 py-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+              <button class="flex items-center px-6 py-3 text-gray-900 rounded-xl dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
                 <svg
                   class="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
                   aria-hidden="true"
@@ -141,7 +141,7 @@ const Sidebar = () => {
               </button>
             </li>
             <li>
-              <button class="flex items-center px-6 py-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+              <button class="flex items-center px-6 py-3 text-gray-900 rounded-xl dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
                 <svg
                   class="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
                   aria-hidden="true"

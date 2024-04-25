@@ -3,7 +3,7 @@ import Image from "next/image";
 const Navbar = () => {
   return (
     <div className="h-20 sm:ml-60 flex justify-between items-center bg-white">
-      <div className="pl-10 font-poppins font-semibold text-2xl">Dashboard</div>
+      <div className="pl-8 font-poppins font-semibold text-2xl">Dashboard</div>
       <div className="mr-10 flex items-center">
         <Image
           src="/me.jpg"
