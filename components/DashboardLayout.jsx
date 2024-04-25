@@ -1,4 +1,3 @@
-'use client'
 // Icons from Material UI
 import CloudUploadOutlinedIcon from '@mui/icons-material/CloudUploadOutlined';
 import AnalyticsIcon from '@mui/icons-material/Analytics';
@@ -10,6 +9,18 @@ import dynamic from 'next/dynamic';
 // Charts imports
 const TotalRevenue = dynamic(
   () => import ('./charts/TotalRevenue'),
+  { ssr: false }
+)
+const VisitorInsights = dynamic(
+  () => import ('./charts/VisitorInsights'),
+  { ssr: false }
+)
+const CustomerSatisfaction = dynamic(
+  () => import ('./charts/CustomerSatisfaction'),
+  { ssr: false }
+)
+const TargetVsReality = dynamic(
+  () => import ('./charts/TargetVsReality'),
   { ssr: false }
 )
 
@@ -66,19 +77,25 @@ const DashboardLayout = () => {
           </div>
         </div>
 
-        <div class="m-3 w-60 h-auto flex-1 flex bg-white rounded-lg shadow-sm">02</div>
+        <div class="m-3 p-6 h-fit w-1/2 flex flex-col shadow-sm bg-white rounded-lg">
+          <VisitorInsights />
+        </div>
 
       </div>
 
-      <div className="min-h-1/3 w-full flex">
-        <div class="m-3 w-1/2 bg-white rounded-lg shadow-sm">
+      <div className="max-h-1/3 w-full flex">
+        <div class="m-3 p-6 h-fit w-2/5 flex flex-col shadow-sm bg-white rounded-lg">
           <TotalRevenue />
         </div>
-        <div class="m-3 flex-1 bg-white rounded-lg shadow-sm">04</div>
-        <div class="m-3 flex-1 bg-white rounded-lg shadow-sm">05</div>
+        <div class="m-3 p-6 h-fit flex-1 flex flex-col shadow-sm bg-white rounded-lg">
+          <CustomerSatisfaction />
+        </div>
+        <div class="m-3 p-6 h-fit flex-1 flex flex-col shadow-sm bg-white rounded-lg">
+          <TargetVsReality />
+        </div>
       </div>
 
-      <div className="h-1/3 w-full flex">
+      <div className="min-h-32 w-full flex">
         <div class="m-3 flex-1 bg-white rounded-lg shadow-sm">06</div>
       </div>
     </div>
