@@ -11,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className='w-screen h-screen flex flex-col justify-start'>
+      <main className='w-screen min-h-screen flex flex-col justify-start'>
         <Sidebar />
         <div className='h-full flex flex-col bg-cyan-100'>
           <Navbar />

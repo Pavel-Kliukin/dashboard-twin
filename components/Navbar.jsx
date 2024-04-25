@@ -6,7 +6,7 @@ import SearchIcon from '@mui/icons-material/Search';
 
 const Navbar = () => {
   return (
-    <div className="h-20 sm:ml-60 flex justify-between items-center font-poppins bg-white">
+    <div className="h-20 sm:ml-60 flex flex-wrap justify-between items-center font-poppins bg-white">
       <div className="pl-8 font-semibold text-2xl">Dashboard</div>
       <div className="mr-10 flex items-center">
 
@@ -23,7 +23,7 @@ const Navbar = () => {
           <Image
             src="/flag.png"
             alt="English language"
-            className="mr-2 rounded-xl"
+            className="mr-2 rounded-xl min-w-[20px] max-h-[20px]"
             width="20"
             height="20"
           />
