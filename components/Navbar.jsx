@@ -1,4 +1,5 @@
 import Image from "next/image";
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 const Navbar = () => {
   return (
@@ -16,6 +17,8 @@ const Navbar = () => {
           <div className="font-poppins font-medium text-sm">Pavel</div>
           <div className="font-poppins font-light text-xs">Admin</div>
         </div>
+        <ExpandMoreIcon 
+        className="ml-6"/>
 
       </div>
     </div>
