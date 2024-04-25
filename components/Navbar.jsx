@@ -15,7 +15,7 @@ const Navbar = () => {
           <input
             type="text"
             placeholder="Search here..."
-            className="block w-[350px] rounded-xl border-0 py-1.5 pl-10 pr-7 tracking-tight max-sm:pr-4 text-gray-700 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-1 focus:ring-inset focus:ring-[#5864E8] text-sm leading-8"
+            className="block w-[350px] rounded-xl border-0 py-1.5 pl-10 pr-7 tracking-tight max-sm:pr-4 bg-[#F9FAFC] text-gray-700 placeholder:text-gray-400 text-sm leading-8"
           />
         </div>
 
