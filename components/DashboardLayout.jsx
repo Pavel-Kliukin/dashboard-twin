@@ -1,9 +1,17 @@
+'use client'
+// Icons from Material UI
 import CloudUploadOutlinedIcon from '@mui/icons-material/CloudUploadOutlined';
 import AnalyticsIcon from '@mui/icons-material/Analytics';
 import FeedIcon from '@mui/icons-material/Feed';
 import GavelIcon from '@mui/icons-material/Gavel';
 import GroupAddIcon from '@mui/icons-material/GroupAdd';
 
+import dynamic from 'next/dynamic';
+// Charts imports
+const TotalRevenue = dynamic(
+  () => import ('./charts/TotalRevenue'),
+  { ssr: false }
+)
 
 const DashboardLayout = () => {
   return (
@@ -63,7 +71,9 @@ const DashboardLayout = () => {
       </div>
 
       <div className="min-h-1/3 w-full flex">
-        <div class="m-3 w-1/2 bg-white rounded-lg shadow-sm">03</div>
+        <div class="m-3 w-1/2 bg-white rounded-lg shadow-sm">
+          <TotalRevenue />
+        </div>
         <div class="m-3 flex-1 bg-white rounded-lg shadow-sm">04</div>
         <div class="m-3 flex-1 bg-white rounded-lg shadow-sm">05</div>
       </div>
