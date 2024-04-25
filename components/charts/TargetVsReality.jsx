@@ -8,19 +8,19 @@ class TargetVsReality extends React.Component {
     this.state = {
       series: [
         {
-          name: "PRODUCT A",
+          name: "A",
           data: [44, 55, 41, 67, 22, 43],
         },
         {
-          name: "PRODUCT B",
+          name: "B",
           data: [13, 23, 20, 8, 13, 27],
         },
         {
-          name: "PRODUCT C",
+          name: "C",
           data: [11, 17, 15, 15, 21, 14],
         },
         {
-          name: "PRODUCT D",
+          name: "D",
           data: [21, 7, 25, 13, 22, 8],
         },
       ],
@@ -68,8 +68,6 @@ class TargetVsReality extends React.Component {
         xaxis: {
           type: "datetime",
           categories: [
-            "01/01/2011 GMT",
-            "01/02/2011 GMT",
             "01/03/2011 GMT",
             "01/04/2011 GMT",
             "01/05/2011 GMT",
@@ -89,8 +87,8 @@ class TargetVsReality extends React.Component {
 
   render() {
     return (
-      <div id="TotalRevenue">
-        <div className="font-semibold">Target vs. Reality</div>
+      <div id="TotalRevenue" className="w-full">
+        <div className="mb-2 font-semibold">Target vs. Reality</div>
         <ReactApexChart
           options={this.state.options}
           series={this.state.series}

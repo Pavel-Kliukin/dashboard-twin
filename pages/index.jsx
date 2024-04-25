@@ -13,7 +13,7 @@ export default function Home() {
 
       <main className='w-screen min-h-screen flex flex-col justify-start'>
         <Sidebar />
-        <div className='h-full flex flex-col bg-cyan-100'>
+        <div className='flex-grow flex flex-col'>
           <Navbar />
           <DashboardLayout />
         </div>

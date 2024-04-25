@@ -68,8 +68,8 @@ class TotalRevenue extends React.Component {
 
   render() {
     return (
-      <div id="TotalRevenue">
-        <div className="font-semibold">Total Revenue</div>
+      <div id="TotalRevenue" className="w-full">
+        <div className="mb-2 font-semibold">Total Revenue</div>
         <ReactApexChart
           options={this.state.options}
           series={this.state.series}
