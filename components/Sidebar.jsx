@@ -42,9 +42,11 @@ const Sidebar = () => {
         aria-label="Sidebar"
       >
         {/* Logo */}
-        <div className="m-8 mb-6 h-10 w-10 flex justify-center items-center rounded-md bg-[#5864E8]">
-          <ElectricalServicesOutlinedIcon className='text-white'/>
-        </div>
+        <a href="https://parkingenergy.com" rel="noreferrer">
+          <div className="m-8 mb-6 h-10 w-10 flex justify-center items-center rounded-md bg-[#5864E8]">
+            <ElectricalServicesOutlinedIcon className='text-white'/>
+          </div>
+        </a>
 
         <div class="h-full px-3 py-4 flex flex-col items-center overflow-y-auto ">
           <ul class="space-y-2 font-medium">
