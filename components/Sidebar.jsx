@@ -38,7 +38,7 @@ const Sidebar = () => {
 
       <aside
         id="default-sidebar"
-        class="fixed top-0 left-0 z-40 w-60 h-screen bg-white dark:bg-gray-800 transition-transform -translate-x-full sm:translate-x-0"
+        class="fixed top-0 left-0 z-40 w-60 h-screen bg-white transition-transform -translate-x-full sm:translate-x-0"
         aria-label="Sidebar"
       >
         {/* Logo */}
@@ -51,9 +51,9 @@ const Sidebar = () => {
         <div class="h-full px-3 py-4 flex flex-col items-center overflow-y-auto ">
           <ul class="space-y-2 font-medium">
             <li>
-              <button class="flex items-center px-8 py-3 text-white rounded-xl bg-[#5864E8] dark:text-white hover:bg-gray-100 hover:text-gray-900 dark:hover:bg-gray-700 group">
+              <button class="flex items-center px-8 py-3 text-white rounded-xl bg-[#5864E8] hover:bg-gray-100 hover:text-gray-900 group">
                 <svg
-                  class="w-5 h-5 text-white transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
+                  class="w-5 h-5 text-white transition duration-75 group-hover:text-gray-900"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="currentColor"
@@ -66,45 +66,45 @@ const Sidebar = () => {
               </button>
             </li>
             <li>
-              <button class="flex items-center px-6 py-3 text-gray-900 rounded-xl dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+              <button class="flex items-center px-6 py-3 text-gray-900 rounded-xl hover:bg-gray-100 group">
                 <BarChartOutlinedIcon className='text-gray-500'/>
                 <span class="flex-1 ms-3 text-gray-500 whitespace-nowrap">Leaderboard</span>
               </button>
             </li>
             <li>
-              <button class="flex items-center px-6 py-3  text-gray-900 rounded-xl dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+              <button class="flex items-center px-6 py-3  text-gray-900 rounded-xl hover:bg-gray-100 group">
                 <ShoppingCartOutlinedIcon className='text-gray-500'/>
                 <span class="flex-1 ms-3 whitespace-nowrap text-gray-500">Order</span>
               </button>
             </li>
             <li>
-              <button class="flex items-center px-6 py-3 text-gray-900 rounded-xl dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+              <button class="flex items-center px-6 py-3 text-gray-900 rounded-xl hover:bg-gray-100 group">
                 <ShoppingBagOutlinedIcon className='text-gray-500'/>
                 <span class="flex-1 ms-3 whitespace-nowrap text-gray-500">Products</span>
               </button>
             </li>
             <li>
-              <button class="flex items-center px-6 py-3 text-gray-900 rounded-xl dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+              <button class="flex items-center px-6 py-3 text-gray-900 rounded-xl hover:bg-gray-100 group">
                 <TrendingUpOutlinedIcon className='text-gray-500'/>
                 <span class="flex-1 ms-3 whitespace-nowrap text-gray-500">Sales Report</span>
               </button>
             </li>
             <li>
-              <button class="flex items-center px-6 py-3 text-gray-900 rounded-xl dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+              <button class="flex items-center px-6 py-3 text-gray-900 rounded-xl hover:bg-gray-100 group">
                 <SmsOutlinedIcon className='text-gray-500'/>
                 <span class="flex-1 ms-3 whitespace-nowrap text-gray-500">Messages</span>
               </button>
             </li>
             <li>
-              <button class="flex items-center px-6 py-3 text-gray-900 rounded-xl dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+              <button class="flex items-center px-6 py-3 text-gray-900 rounded-xl hover:bg-gray-100 group">
                 <SettingsOutlinedIcon className='text-gray-500'/>
                 <span class="flex-1 ms-3 whitespace-nowrap text-gray-500">Settings</span>
               </button>
             </li>
             <li>
-              <button class="flex items-center px-6 py-3 text-gray-900 rounded-xl dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+              <button class="flex items-center px-6 py-3 text-gray-900 rounded-xl hover:bg-gray-100 group">
                 <svg
-                  class="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
+                  class="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 group-hover:text-gray-900"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"

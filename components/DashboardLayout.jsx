@@ -43,35 +43,35 @@ const DashboardLayout = () => {
             </button>
           </div>
           <div className="flex flex-wrap h-fit justify-between items-center">
-            <div className='p-3 m-3 w-32 h-32 flex flex-col justify-between rounded-xl bg-[#FFE3E6] hover:shadow group/sales'>
+            <div className='p-3 m-3 w-32 h-32 flex flex-col justify-between rounded-xl bg-[#FFE3E6] hover:bg-[#fadbde] hover:shadow'>
               <div className='w-7 h-7 flex justify-center items-center rounded-full bg-[#FA5F7D]'>
                 <AnalyticsIcon className="text-[17px] text-white"/>
               </div>
-              <div className='font-bold transform transition-all group-hover/sales:text-[18px]'>$1k</div>
+              <div className='font-bold transform transition-all'>$1k</div>
               <div className='text-xs text-gray-900'>Total Sales</div>
               <div className='font-semibold text-[9px] text-sky-500'>+8% from yesterday</div>
             </div>
-            <div className='p-3 m-3 w-32 h-32 flex flex-col justify-between rounded-xl bg-[#FFF4E0] hover:shadow group/order'>
+            <div className='p-3 m-3 w-32 h-32 flex flex-col justify-between rounded-xl bg-[#FFF4E0] hover:bg-[#fbefd9] hover:shadow'>
               <div className='w-7 h-7 flex justify-center items-center rounded-full bg-[#FF967E]'>
                 <FeedIcon className="text-[17px] text-white"/>
               </div>
-              <div className='font-bold transform transition-all group-hover/order:text-[18px]'>300</div>
+              <div className='font-bold transform transition-all'>300</div>
               <div className='text-xs text-gray-900'>Total Order</div>
               <div className='font-semibold text-[9px] text-sky-500'>+5% from yesterday</div>
             </div>
-            <div className='p-3 m-3 w-32 h-32 flex flex-col justify-between rounded-xl bg-[#DDFCE9] hover:shadow group/sold'>
+            <div className='p-3 m-3 w-32 h-32 flex flex-col justify-between rounded-xl bg-[#DDFCE9] hover:bg-[#d5fae3] hover:shadow'>
               <div className='w-7 h-7 flex justify-center items-center rounded-full bg-[#45D666]'>
                 <GavelIcon className="text-[17px] text-white"/>
               </div>
-              <div className='font-bold transform transition-all group-hover/sold:text-[18px]'>5</div>
+              <div className='font-bold transform transition-all'>5</div>
               <div className='text-xs text-gray-900'>Product Sold</div>
               <div className='font-semibold text-[9px] text-sky-500'>+1,2% from yesterday</div>
             </div>
-            <div className='p-3 m-3 w-32 h-32 flex flex-col justify-between rounded-xl bg-[#F4E9FE] hover:shadow group/customers'>
+            <div className='p-3 m-3 w-32 h-32 flex flex-col justify-between rounded-xl bg-[#F4E9FE] hover:bg-[#eee2fa] hover:shadow'>
               <div className='w-7 h-7 flex justify-center items-center rounded-full bg-[#BD86F9]'>
                 <GroupAddIcon className="text-[17px] text-white"/>
               </div>
-              <div className='font-bold transform transition-all group-hover/customers:text-[18px]'>8</div>
+              <div className='font-bold transform transition-all'>8</div>
               <div className='text-xs text-gray-900'>New Customers</div>
               <div className='font-semibold text-[9px] text-sky-500'>+0,5% from yesterday</div>
             </div>
